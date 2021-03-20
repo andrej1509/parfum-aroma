@@ -13,23 +13,21 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<!-- <div id="primary"> -->
+		<!-- <main id="main" class="site-main" role="main"> -->
+			<div class="btn-block">
+					<a href="shop"><div class="btn">Перейти в каталог</div></a>
+				</div>
 
-		<?php
-		if ( have_posts() ) :
-
-			get_template_part( 'loop' );
-
-		else :
-
-			get_template_part( 'content', 'none' );
-
-		endif;
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+			<div class="bg_image">
+			<img class="owl-lazy"  src="/wp-content/uploads/banners/main_page_1.jpg">
+		</div>
+		<div class="aboutus">
+			<p>Как приятно открыть флакон любимых духов и ощутить их волшебный запах. Еще лучше нанести этот чудесный аромат на тело или одежду и радовать им не только себя, но и окружающих людей. Ведь радостью всегда хочется поделиться, не так ли?</p>
+		</div>
+		<div class="btn-block">
+			<a href="shop"><div class="btn">Перейти в каталог</div></a>
+		</div>
 
 <?php
 do_action( 'storefront_sidebar' );

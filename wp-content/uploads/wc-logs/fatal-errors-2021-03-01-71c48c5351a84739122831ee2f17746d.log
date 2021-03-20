@@ -1,0 +1,30 @@
+2021-03-01T18:06:40+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_adjust_color_brightness() in /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/deli/inc/class-deli-customizer.php:162
+Stack trace:
+#0 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/class-wp-hook.php(287): Deli_Customizer->add_customizer_css('')
+#1 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/plugin.php(484): WP_Hook->d в /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/deli/inc/class-deli-customizer.php на строке 162
+
+2021-03-01T18:08:02+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_is_woocommerce_activated() in /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/storefront/functions.php:40
+Stack trace:
+#0 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-settings.php(525): include()
+#1 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-config.php(90): require_once('/home/a/andrej1...')
+#2 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-load.php(37): require_once('/home/a/andrej1...')
+#3 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-blog-header.php(13): require_once('/home/a/andrej1...')
+#4 /home/a/andrej1509/elitparfum-aroma.ru/public_html/index.php(17): require('/home/a/andrej1...')
+#5 {main}
+  thrown в /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/storefront/functions.php на строке 40
+
+2021-03-01T18:08:03+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_is_woocommerce_activated() in /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/storefront/functions.php:40
+Stack trace:
+#0 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-settings.php(525): include()
+#1 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-config.php(90): require_once('/home/a/andrej1...')
+#2 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-load.php(37): require_once('/home/a/andrej1...')
+#3 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-blog-header.php(13): require_once('/home/a/andrej1...')
+#4 /home/a/andrej1509/elitparfum-aroma.ru/public_html/index.php(17): require('/home/a/andrej1...')
+#5 {main}
+  thrown в /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/storefront/functions.php на строке 40
+

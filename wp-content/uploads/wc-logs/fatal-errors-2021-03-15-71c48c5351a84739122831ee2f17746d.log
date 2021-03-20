@@ -1,0 +1,8 @@
+2021-03-15T07:40:42+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_promoted_products() in /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/storefront/404.php:41
+Stack trace:
+#0 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-blog-header.php(19): require_once('/home/a/andrej1...')
+#2 /home/a/andrej1509/elitparfum-aroma.ru/public_html/index.php(17): require('/home/a/andrej1...')
+#3 {main}
+  thrown в /home/a/andrej1509/elitparfum-aroma.ru/public_html/wp-content/themes/storefront/404.php на строке 41
+

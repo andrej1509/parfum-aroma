@@ -227,6 +227,7 @@ table tbody tr:nth-child(2n) td,
 .deli-content-wrapper .btn-block {
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 .deli-content-wrapper .aboutus{
   background-color: #BA75AB;
